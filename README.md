@@ -49,6 +49,137 @@ Model yang digunakan adalah **Star Schema**:
 
 <img width="1335" height="728" alt="Screenshot 2026-04-09 211550" src="https://github.com/user-attachments/assets/f55968f0-70ec-4b4d-b5d6-e784bdaab781" />
 
+## 📊 Dashboard Insights — Shopping Trends
+
+Bagian ini menjelaskan insight utama yang diperoleh dari dashboard Power BI berdasarkan analisis data transaksi pelanggan.
+
+---
+
+### 🔝 1. KPI Utama
+
+- **Total Revenue: $233K**  
+- **Total Transaksi: 3.900**  
+- **Average Spend: $59.76**  
+- **Average Rating: 3.75 ⭐**
+
+📌 **Insight:**
+- Performa bisnis tergolong **stabil** dengan jumlah transaksi yang konsisten  
+- Rata-rata pembelian berada di kategori **menengah (medium spending)**  
+- Tingkat kepuasan pelanggan cukup baik, namun masih dapat ditingkatkan  
+
+---
+
+### 🛍️ 2. Revenue by Category
+
+- **Clothing** menjadi kontributor terbesar (~44%)
+- Diikuti oleh Accessories, Footwear, dan Outerwear
+
+📌 **Insight:**
+- Clothing merupakan **core business utama**
+- Kategori lain masih memiliki potensi untuk dikembangkan
+
+🎯 **Strategi:**
+- Fokus pada promosi kategori utama
+- Lakukan **cross-selling** ke kategori lain
+
+---
+
+### 🥇 3. Top 10 Produk
+
+Produk dengan transaksi tertinggi:
+- Shirt  
+- Sweater  
+- Sunglasses  
+- Socks  
+- Skirt  
+
+📌 **Insight:**
+- Produk kebutuhan sehari-hari mendominasi penjualan  
+- Distribusi produk cukup merata (tidak ada dominasi ekstrem)
+
+🎯 **Strategi:**
+- Bundling produk populer  
+- Gunakan produk top sebagai daya tarik utama promosi  
+
+---
+
+### 🌦️ 4. Transaksi Berdasarkan Musim
+
+- **Spring & Fall** → transaksi tertinggi  
+- **Summer** → transaksi terendah  
+
+📌 **Insight:**
+- Pola pembelian dipengaruhi oleh musim  
+- Summer menjadi periode dengan performa terendah  
+
+🎯 **Strategi:**
+- Berikan promo khusus saat Summer  
+- Maksimalkan campaign pada musim ramai  
+
+---
+
+### 👥 5. Segmentasi Pelanggan (Age Group)
+
+- **Middle Age (40–59)** → segmen terbesar  
+- Diikuti oleh Adult  
+- Young Adult paling rendah  
+
+📌 **Insight:**
+- Target utama saat ini adalah pelanggan usia menengah  
+- Segmen usia muda belum optimal  
+
+🎯 **Strategi:**
+- Campaign khusus untuk Gen Z / Young Adult  
+- Produk lebih trend-oriented  
+
+---
+
+### 💳 6. Payment Method
+
+Metode pembayaran:
+- PayPal  
+- Cash  
+- Credit Card  
+- Venmo  
+- Bank Transfer  
+
+📌 **Insight:**
+- Distribusi penggunaan metode pembayaran relatif **seimbang**  
+- Menunjukkan fleksibilitas sistem pembayaran  
+
+🎯 **Strategi:**
+- Tambahkan promo berdasarkan metode pembayaran (cashback, dll)
+
+---
+
+### 👤 7. Subscriber vs Non-Subscriber
+
+- Non-subscriber mendominasi (~90%+)  
+- Subscriber masih sangat rendah  
+
+📌 **Insight (KRITIS 🚨):**
+> Program subscription belum efektif dalam menarik pelanggan
+
+🎯 **Strategi:**
+- Tingkatkan benefit subscription:
+  - Diskon eksklusif  
+  - Free shipping  
+  - Loyalty program  
+
+---
+
+## 🎯 Kesimpulan
+
+Secara keseluruhan, bisnis menunjukkan performa yang stabil dengan kontribusi utama dari kategori Clothing dan segmen pelanggan usia Middle Age.
+
+Namun, terdapat beberapa peluang pengembangan:
+- Meningkatkan jumlah subscriber (customer retention)
+- Mengoptimalkan penjualan di musim rendah (Summer)
+- Mengembangkan segmen pelanggan usia muda
+
+---
+
+💡 Insight ini dapat digunakan sebagai dasar pengambilan keputusan strategis untuk meningkatkan performa bisnis ke depannya.
 ---
 
 ## 💰 KPI Utama
