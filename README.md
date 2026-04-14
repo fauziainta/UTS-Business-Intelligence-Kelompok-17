@@ -1,28 +1,30 @@
 # UTS-Business-Intelligence-Kelompok-17
 
-# 🛍️ Data Warehouse — Customer Shopping Trends
+# Data Warehouse — Customer Shopping Trends
 
-## 👥 Tim
+## Tim
 
-* Shafa Rizqi Nur Wahidah
-* Fauzia Inanta Aurelia
-* Azhaar Athahiroh
-* Alvionej Resna Lawrend
+| No | Nama | NIM |
+|:---:|:---|:---:|
+| 1 | Shafa Rizqi Nur Wahidah | 2409116041 |
+| 2 | Fauzia Inanta Aurelia | 2409116044 |
+| 3 | Azhaar Athahiroh | 2409116057 |
+| 4 | Alvionej Resna Lawrend | 2409116073 |
 
-## 📌 Tentang Project
+## A. Tentang Project
 
 Project ini merupakan implementasi **Data Warehouse** untuk menganalisis tren pembelian pelanggan pada industri retail fashion.
 
 Menggunakan pendekatan:
 
-* ⭐ **Star Schema**
-* 🔄 **ETL Process (Python + SQL)**
-* 🗄️ **PostgreSQL**
-* 📊 **Power BI Dashboard**
+* **Star Schema**
+* **ETL Process (Python + SQL)**
+* **PostgreSQL**
+* **Power BI Dashboard**
 
 ---
 
-## 🎯 Tujuan
+## B. Tujuan
 
 * Membangun Data Warehouse terstruktur
 * Melakukan proses ETL dari dataset CSV
@@ -31,7 +33,7 @@ Menggunakan pendekatan:
 
 ---
 
-## 🧱 Arsitektur Data Warehouse
+## C. Arsitektur Data Warehouse
 
 Model yang digunakan adalah **Star Schema**:
 
@@ -45,17 +47,17 @@ Model yang digunakan adalah **Star Schema**:
 
 ---
 
-## 📊 Dashboard Preview
+## D. Dashboard Preview
 
 <img width="1335" height="728" alt="Screenshot 2026-04-09 211550" src="https://github.com/user-attachments/assets/f55968f0-70ec-4b4d-b5d6-e784bdaab781" />
 
-## 📊 Dashboard Insights — Shopping Trends
+## 1. Dashboard Insights — Shopping Trends
 
 Bagian ini menjelaskan insight utama yang diperoleh dari dashboard Power BI berdasarkan analisis data transaksi pelanggan.
 
 ---
 
-### 🔝 1. KPI Utama
+### a). KPI Utama
 
 - **Total Revenue: $233K**  
 - **Total Transaksi: 3.900**  
@@ -69,7 +71,7 @@ Bagian ini menjelaskan insight utama yang diperoleh dari dashboard Power BI berd
 
 ---
 
-### 🛍️ 2. Revenue by Category
+### b). Revenue by Category
 
 - **Clothing** menjadi kontributor terbesar (~44%)
 - Diikuti oleh Accessories, Footwear, dan Outerwear
@@ -78,13 +80,13 @@ Bagian ini menjelaskan insight utama yang diperoleh dari dashboard Power BI berd
 - Clothing merupakan **core business utama**
 - Kategori lain masih memiliki potensi untuk dikembangkan
 
-🎯 **Strategi:**
+   **Strategi:**
 - Fokus pada promosi kategori utama
 - Lakukan **cross-selling** ke kategori lain
 
 ---
 
-### 🥇 3. Top 10 Produk
+### c). Top 10 Produk
 
 Produk dengan transaksi tertinggi:
 - Shirt  
@@ -97,13 +99,13 @@ Produk dengan transaksi tertinggi:
 - Produk kebutuhan sehari-hari mendominasi penjualan  
 - Distribusi produk cukup merata (tidak ada dominasi ekstrem)
 
-🎯 **Strategi:**
+   **Strategi:**
 - Bundling produk populer  
 - Gunakan produk top sebagai daya tarik utama promosi  
 
 ---
 
-### 🌦️ 4. Transaksi Berdasarkan Musim
+###   d). Transaksi Berdasarkan Musim
 
 - **Spring & Fall** → transaksi tertinggi  
 - **Summer** → transaksi terendah  
@@ -112,13 +114,13 @@ Produk dengan transaksi tertinggi:
 - Pola pembelian dipengaruhi oleh musim  
 - Summer menjadi periode dengan performa terendah  
 
-🎯 **Strategi:**
+   **Strategi:**
 - Berikan promo khusus saat Summer  
 - Maksimalkan campaign pada musim ramai  
 
 ---
 
-### 👥 5. Segmentasi Pelanggan (Age Group)
+###  e). Segmentasi Pelanggan (Age Group)
 
 - **Middle Age (40–59)** → segmen terbesar  
 - Diikuti oleh Adult  
@@ -128,13 +130,13 @@ Produk dengan transaksi tertinggi:
 - Target utama saat ini adalah pelanggan usia menengah  
 - Segmen usia muda belum optimal  
 
-🎯 **Strategi:**
+   **Strategi:**
 - Campaign khusus untuk Gen Z / Young Adult  
 - Produk lebih trend-oriented  
 
 ---
 
-### 💳 6. Payment Method
+###    f). Payment Method
 
 Metode pembayaran:
 - PayPal  
@@ -147,20 +149,20 @@ Metode pembayaran:
 - Distribusi penggunaan metode pembayaran relatif **seimbang**  
 - Menunjukkan fleksibilitas sistem pembayaran  
 
-🎯 **Strategi:**
+   **Strategi:**
 - Tambahkan promo berdasarkan metode pembayaran (cashback, dll)
 
 ---
 
-### 👤 7. Subscriber vs Non-Subscriber
+###    g). Subscriber vs Non-Subscriber
 
 - Non-subscriber mendominasi (~90%+)  
 - Subscriber masih sangat rendah  
 
-📌 **Insight (KRITIS 🚨):**
+📌 **Insight:**
 > Program subscription belum efektif dalam menarik pelanggan
 
-🎯 **Strategi:**
+   **Strategi:**
 - Tingkatkan benefit subscription:
   - Diskon eksklusif  
   - Free shipping  
@@ -168,7 +170,7 @@ Metode pembayaran:
 
 ---
 
-## 🎯 Kesimpulan
+##   E. Kesimpulan
 
 Secara keseluruhan, bisnis menunjukkan performa yang stabil dengan kontribusi utama dari kategori Clothing dan segmen pelanggan usia Middle Age.
 
@@ -182,7 +184,7 @@ Namun, terdapat beberapa peluang pengembangan:
 💡 Insight ini dapat digunakan sebagai dasar pengambilan keputusan strategis untuk meningkatkan performa bisnis ke depannya.
 ---
 
-## 💰 KPI Utama
+##   A. KPI Utama
 
 | KPI             | Nilai    |
 | --------------- | -------- |
@@ -193,16 +195,16 @@ Namun, terdapat beberapa peluang pengembangan:
 
 ---
 
-## 🔍 Key Insights
+##   B. Key Insights
 
-* 🛍️ **Clothing** adalah kategori dengan revenue tertinggi (~44%)
-* 📈 **Middle Age** adalah segmen pelanggan terbesar
-* ☀️ **Summer** memiliki performa terendah (peluang promosi)
-* 👤 **Non-subscriber mendominasi (73%)**
+*  **Clothing** adalah kategori dengan revenue tertinggi (~44%)
+*  **Middle Age** adalah segmen pelanggan terbesar
+*  **Summer** memiliki performa terendah (peluang promosi)
+*  **Non-subscriber mendominasi (73%)**
 
 ---
 
-## 🛠️ Tech Stack
+##   C. Tech Stack
 
 * Python (Pandas, NumPy)
 * PostgreSQL
@@ -212,7 +214,7 @@ Namun, terdapat beberapa peluang pengembangan:
 
 ---
 
-## 📁 Struktur Project
+##   D. Struktur Project
 
 ```
 shopping-dw-project/
@@ -226,7 +228,7 @@ shopping-dw-project/
 
 ---
 
-## 🔄 ETL Process
+##   E. ETL Process
 
 1. Extract data dari CSV
 2. Data cleaning & transformasi (Python)
@@ -236,7 +238,7 @@ shopping-dw-project/
 
 ---
 
-## 🚀 Cara Menjalankan
+##   F. Cara Menjalankan
 
 ### 1. Clone repo
 
@@ -263,7 +265,7 @@ pip install pandas numpy sqlalchemy psycopg2-binary
 
 ---
 
-## 📊 Dashboard Pages
+## G. Dashboard Pages
 
 ### 📄 Page 1 — Executive Summary
 
